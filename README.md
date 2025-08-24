@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🔥 Firewook  
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-First, run the development server:
+Firewook is a modern food ordering web app built with **Next.js**, styled with **Tailwind CSS**, and powered by **Supabase** for database and authentication.  
+The app features a smooth UI, animations with **Framer Motion**, and is fully deployed on **Vercel**.  
+
+🌐 **Live Site:** [firewook.vercel.app](https://firewook.vercel.app)  
+
+---
+
+## 🚀 Features  
+- 📱 **Responsive Design** – Works seamlessly on desktop and mobile  
+- 🎨 **Modern UI** – Built with Tailwind + Framer Motion animations  
+- 🍔 **Menu & Orders** – Browse menu, add to cart, and place orders  
+- 🛒 **Cart System** – Add, remove, and adjust quantities  
+- 🔐 **Authentication** – User login/signup powered by Supabase  
+- ⚡ **Fast & Optimized** – Deployed on Vercel with automatic builds  
+
+---
+
+## 🛠️ Tech Stack  
+- **Frontend**: [Next.js](https://nextjs.org), [React](https://react.dev)  
+- **Styling**: [Tailwind CSS](https://tailwindcss.com), [Framer Motion](https://www.framer.com/motion/)  
+- **Backend & Database**: [Supabase](https://supabase.com)  
+- **Deployment**: [Vercel](https://vercel.com)  
+
+---
+
+## ⚙️ Getting Started  
+
+Clone the repo and install dependencies:  
+
+```bash
+git clone https://github.com/yourusername/firewook.git
+cd firewook
+npm install
+````
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser 🚀
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Project Structure
 
-## Learn More
+```
+app/
+ ├── page.js          # Homepage
+ ├── menu/            # Menu pages
+ ├── cart/            # Cart system
+ ├── orders/          # Order management
+components/           # Reusable UI components
+lib/                  # Supabase client & helpers
+public/               # Static assets (images, favicon, etc.)
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is live on **Vercel** → [firewook.vercel.app](https://firewook.vercel.app)
 
-## Deploy on Vercel
+To deploy your own:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Push your repo to GitHub
+2. Connect to Vercel
+3. Add your **Supabase environment variables** in Vercel settings
+4. Deploy 🎉
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🙌 Contributing
+
+Contributions are welcome! If you’d like to improve Firewook:
+
+1. Fork the repo
+2. Create a new branch 
+3. Commit and push your changes
+4. Open a PR 🚀
+
+
+
+
+
+⚡ Just replace `yourusername` in the `git clone` link with your actual GitHub username.  
+
+
